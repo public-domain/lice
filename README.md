@@ -1,3 +1,8 @@
+DOWNLOADED_FROM='http://gmqcc.qc.to/cgit/cgit.cgi/LICE.git/plain/';
+DOWNLOAD_DATE='17-11-2014';
+HOMEPAGE='http://gmqcc.qc.to/cgit/cgit.cgi/LICE.git/tree/README.md';
+
+
 ### Epilogue
 LICE is a work in progress C99 compiler designed as a solution for
 teaching myself and others about the internals of the C programming
