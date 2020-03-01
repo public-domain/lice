@@ -1,0 +1,48 @@
+LICE implements the following extentions that are likewise present
+in existing compilers like GCC/Clang.
+
+- Dollar signs in Identifier Names:
+    http://gcc.gnu.org/onlinedocs/gcc/Dollar-Signs.html
+
+- Referring to a Type with typeof:
+    http://gcc.gnu.org/onlinedocs/gcc/Typeof.html
+
+- Conditionals with Omitted Operands:
+    http://gcc.gnu.org/onlinedocs/gcc/Conditionals.html
+
+- Statements and Declarations in Expressions
+    http://gcc.gnu.org/onlinedocs/gcc/Statement-Exprs.html
+
+- Structures with No Members
+    http://gcc.gnu.org/onlinedocs/gcc/Empty-Structures.html
+
+- Non-Constant Initializers
+    http://gcc.gnu.org/onlinedocs/gcc/Initializers.html
+
+- Case Ranges
+    http://gcc.gnu.org/onlinedocs/gcc/Case-Ranges.html
+
+- Cast to a Union Type
+    http://gcc.gnu.org/onlinedocs/gcc/Cast-to-Union.html
+
+- The Character <ESC> in Constants
+    http://gcc.gnu.org/onlinedocs/gcc/Character-Escapes.html
+
+- Incomplete enum Types
+    http://gcc.gnu.org/onlinedocs/gcc/Incomplete-Enums.html
+
+- Binary constants using the '0b' prefix
+    http://gcc.gnu.org/onlinedocs/gcc/Binary-constants.html
+
+- Arithmetic on void- and Function-Pointers
+    http://gcc.gnu.org/onlinedocs/gcc/Pointer-Arith.html
+
+- Labels as Values
+    http://gcc.gnu.org/onlinedocs/gcc/Labels-as-Values.html
+
+- Arrays of Length Zero
+    http://gcc.gnu.org/onlinedocs/gcc/Zero-Length.html
+
+- Getting the Return or Frame Address of a Function
+    http://gcc.gnu.org/onlinedocs/gcc/Return-Address.html
+    __builtin_return_address only currently.

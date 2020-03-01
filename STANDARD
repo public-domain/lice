@@ -1,0 +1,30 @@
+The status of language standards in LICE.
+
+C11 status:
+    Things supported:
+        Anonymous structures and unions
+        Static assertions (_Static_assert)
+    Things unsupported:
+        Alignment specification (_Alignas)
+        _Noreturn function specifier
+        Type-Generic expressions (_Generic)
+
+C99 status:
+    Fully supported with exception to the following things:
+        - Veriable length arrays
+
+C90 status:
+    Fully supported with exception to the following things:
+        - String concatenation of adjacent strings
+        - May include C99 feautures by accident (allowing invalid C90 code to compile)
+K&R status:
+    Fully supported with exception to the following things:
+        - The K&R function definition syntax
+
+LICE also supports these additional types of C:
+
+GNUC status:
+    Small subset of common things supported, see EXTENSIONS for a list.
+
+LICEC status:
+    LICEC is C11 with GNUC extensions.
